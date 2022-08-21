@@ -1,0 +1,306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header h1{
+    text-align: center;  
+}
+.title{
+    font-size: 50x;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    font-weight: bolder;
+}
+.title2{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: green;
+    font-weight: bold;
+}
+.image{
+    background-image: url(soldador.jpg);
+    background-position: center;
+    width: 100%;
+    height: 800px;
+    object-fit: contain;
+    opacity: 0.8;
+    display: block;
+}
+.buttons {
+    min-width: 500px;
+    display: flex;
+    justify-content: right;
+    gap: 50px;
+    
+} 
+.buttons a {
+    text-decoration: none;
+    font-size: 28px;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    transition: all .4s ease-in-out;
+}
+.buttons a:hover {
+    transform: scale(1.2);
+}
+.ejemplo h2 {
+    color: rgb(178, 187, 211);
+    text-align: center;
+    text-decoration: underline;
+    font-size: 100px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+}
+.contenedor{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    grid-gap: 10px;
+    margin: auto;
+    background-color: #313652;
+    
+}
+
+.img-thumbnail{
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    transition: all 300ms;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.contenedor .img-thumbnail:hover {
+    transform: scale(1.15);
+}
+.subir {
+    height: 50px;
+    width: 50px;
+    background-color: #314652;
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    color: white;
+    border: 3px;
+    border-radius: 50%;
+    box-shadow: 0 0 5px #fff;
+}
+html {
+    scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+    width: 20px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #314652;
+    border-radius: 10px;
+}
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(173, 194, 212);
+    background-image: -webkit-linear-gradient(#314652, white);
+}
+.pie-pagina{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pie-pagina .foot .map{
+    display: flex;
+    justify-content: center;
+}
+.pie-pagina .copyright{
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    font-size: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(165, 152, 131);
+    box-sizing: border-box;
+    background-color: #314652;
+    padding-top: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
+
+}
+.container .descripcion{
+    font-size: 40px;
+    text-align: center;
+    color:rgb(165, 152, 131);
+}
+.fondo{
+    background-image: url(soldador.jpg);
+    background-size: cover; 
+    
+}
+.fondo-2{
+    background-color: #313652;
+}
+.container-2{
+    height: 80vh;
+    width: 100%;
+    background-image: url(metal2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-color: rgb(50, 50, 50);
+    background-blend-mode: soft-light;
+}
+.texto-about h2{
+    display: flex;
+    justify-content: center;
+    font-size: 130px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:rgb(178, 187, 211);
+    font-weight: lighter;
+    opacity: 0.6;
+}
+.texto-about h3{
+    margin-left: 50px;
+    margin-right: 20px;
+    font-size: 50px;
+    color: rgb(178, 187, 211);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: lighter;
+    opacity: 0.6;
+    font-style: oblique;
+}
+.card{
+    box-sizing: border-box;
+    border-radius: 50px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    transition: all 0.25s;
+    background-color:#313652;
+}
+.card:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+}
+.card-text{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 25px;
+    color: rgb(178, 187, 211);
+    font-weight: bold;
+    font-style: oblique;
+    text-align: center;
+}
+body{
+    background-attachment: fixed
+}
+.fondo-3{
+    background-image: url(metal3.jpg);
+}
+.foot h2{
+    color:rgb(178, 187, 211)
+    
+}
+form{
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, .4);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.contactanos{
+    color: rgb(178, 187, 211);
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: monospace;
+}
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: none;
+}
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+.btn-primary{
+    background: #314652;
+    color: rgb(178, 187, 211);
+    padding: 20px;
+}
+.btn-primary:hover {
+    cursor: pointer;
+}
+html, body {
+    max-width: 100% !important;
+    overflow-x: hidden !important;
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .texto-about h2{
+        font-size: 2rem;
+    }
+    .texto-about h3{
+        font-size: 1.2rem;
+    }
+    .header{
+        height: 100%;
+    }
+
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .ejemplo h2{
+        font-size: 1.5rem;
+    }
+    .buttons{
+        justify-content: center;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 769px){
+    .texto-about h2{
+        font-size: 2rem;
+    }
+    .texto-about h3{
+        font-size: 1.5rem;
+    }
+    .ejemplo h2{
+        font-size: 1.5rem;
+    }
+}
+@media only screen and (min-width: 770px) and (max-width:1023px){
+    .texto-about h2{
+        font-size: 2rem;
+    }
+    .texto-about h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1200px){
+    .texto-about h2{
+        font-size: 2rem;
+    }
+    .texto-about h3{
+        font-size: 1.2rem;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    form{
+        width: 100%;
+    }
+}
