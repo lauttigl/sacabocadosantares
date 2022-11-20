@@ -252,6 +252,7 @@ html, body {
     max-width: 100% !important;
     overflow-x: hidden !important;
 }
+
 @media only screen and (min-width: 320px) and (max-width: 479px){
     .texto-about h2{
         font-size: 2rem;
